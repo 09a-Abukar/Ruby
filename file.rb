@@ -1,5 +1,5 @@
 flilename =gets.chomp
 file = File.open(filename + ".txt" , "w")
-Abukar = gets.chomp
-file.puts Abukar
+text = gets.chomp
+file.puts text
 file.close 	
